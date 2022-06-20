@@ -1,0 +1,31 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+button{
+    cursor: pointer;
+}
+.btn{
+    width: 145px;
+height: 44px;
+background: #0B0C17;
+border-radius: 2px;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+.container{
+    padding: 0 15px;
+}
+}
